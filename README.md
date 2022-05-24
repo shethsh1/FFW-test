@@ -2,7 +2,7 @@
 
 Task: Create widget as shown in pdf
 
-My widget: 
+My widget: https://font-widget.netlify.app/
 
 ![test](https://i.imgur.com/gALzEOR.png)
 
