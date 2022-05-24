@@ -1,1 +1,1 @@
-/api/* http://json.ffwagency.md/:splat 200!
+/* http://json.ffwagency.md/:splat 200
