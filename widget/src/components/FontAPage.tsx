@@ -69,7 +69,7 @@ export default function FontAPage({
               display: 'flex',
               flexDirection: 'column',
               gap: index === 0 ? '20px' : '5px',
-              opacity: selected === font.id ? '1' : '50%'
+              opacity: selected === font.id ? '50%' : '1'
             }}>
 
             <Box aria-label={font['color-blind-label']} sx={{
