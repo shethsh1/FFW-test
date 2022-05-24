@@ -38,7 +38,7 @@ export default function Header({ title, tabs }: props) {
     }}>
       <Box component="h2" sx={{ m: 1 }}>{title}</Box>
       <Box>
-        <Box className="tabs">
+        <Box className="tabs" sx={{ display: 'flex' }}>
           {tabs.map((tab: Tab) =>
             <Button disableRipple onClick={() => selectTab(tab.content_endpoint, tab.id)} key={tab.id}
               sx={{

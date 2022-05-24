@@ -12,7 +12,7 @@ export default function Loading() {
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      minHeight: '280px'
+      minHeight: '284px'
     }}>
       <CircularProgress />
     </Box>
