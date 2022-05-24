@@ -36,6 +36,9 @@ module.exports = {
         "semi": [
             "error",
             "never"
-        ]
+        ],
+        rules: {
+            "linebreak-style": 0   // <----------
+        }
     }
 }
